@@ -1,0 +1,15 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "dflydev/doctrine-orm-service-provider": "~2.0",
+        "jdesrosiers/silex-jms-serializer-provider": "~1.0",
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "AvantLink\\Controller\\": "src/controllers/",
+            "AvantLink\\API\\": "src/controllers/",
+            "AvantLink\\Entity\\": "src/entities"
+        }
+    }
+}
